@@ -23,7 +23,7 @@ icon.onclick = function(){
     icon.src = "sun.png";
     localStorage.setItem("theme", "dark");
   }else{
-    icon.src = "Photos/moon.png";
+    icon.src = "moon.png";
     localStorage.setItem("theme", "light");
   }
 }
