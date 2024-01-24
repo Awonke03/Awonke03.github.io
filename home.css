@@ -1,0 +1,243 @@
+vbody, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  scroll-behavior: smooth; /* Enable smooth scrolling */
+}
+
+.hero {
+  height: 100vh;
+  width: 100%;
+  background: var(--primary-color);
+  font-family: sans-serif;
+  position: relative;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.expertise-section {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 200px 0; /* Adjust the padding as needed */
+}
+.expertise-section {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 500px 0; /* Adjust the padding as needed */
+  position: relative;
+}
+
+.expertise-section h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  position: absolute;
+  top: 20px; /* Adjust the top position as needed */
+  left: 50%;
+  transform: translateX(-50%);
+}
+.portfolio-section {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 500px 0; /* Adjust the padding as needed */
+  position: relative;
+}
+
+.portfolio-section h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  position: absolute;
+  top: 20px; /* Adjust the top position as needed */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.expertise-section h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+:root{
+  --primary-color: #edf2fc;
+  --secondary-color: #212121;
+}
+.dark-theme{
+  --primary-color: #000106;
+  --secondary-color: #fff;
+}
+#icon{
+  width: 30px;
+  cursor: pointer;
+}
+nav ul{
+  flex: 1;
+  text-align: right;
+}
+.hero{
+  height: 100vh;
+  width: 100%;
+  background: var(--primary-color);
+  font-family: sans-serif;
+  position: relative;
+}
+
+nav{
+  width: 84%;
+  margin: auto;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  width: 100px;
+  cursor: pointer;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+nav ul li a:hover{
+  color: #ff4321;
+}
+.info{
+  margin-left: 8%;
+  margin-top: 15%;
+}
+.info h1{
+  font-size: 60px;
+  color: var(--secondary-color);
+  margin-bottom: 20px;
+}
+span{
+  color: #ff4321;
+}
+.info p{
+  color: var(--secondary-color);
+  line-height: 22px;
+}
+.info a{
+  background: var(--secondary-color);
+  padding: 10px 18px;
+  text-decoration: none;
+  color: var(--primary-color);
+  display: inline-block;
+  margin: 30px 0;
+  border-radius: 5px;
+}
+.img-box{
+  width: 45%;
+  height: 80%;
+  position: absolute;
+  bottom: 0;
+  right: 100px;
+}
+.img-box img{
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  transition: bottom 1s, left 1s;
+}
+.img-box:hover .back-img{
+  bottom: 40px;
+}
+.img-box:hover .main-img{
+  left: 54%;
+}
+.social-links {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: var(--primary-color);
+  padding: 20px;
+  text-align: center;
+}
+
+.social-links a {
+  font-size: 30px;
+  color: var(--secondary-color);
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #ff4321;
+}
+/* Existing CSS styles... */
+
+.expertise-section {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 50px 20px; /* Adjust the padding as needed */
+  text-align: center;
+}
+
+.expertise-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.languages-box,
+.technologies-box {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 20px;
+  margin: 40px 0 20px; /* Adjust the top and bottom margin */
+  border-radius: 5px;
+  text-align: center; /* Center text within the boxes */
+  border: 2px solid var(--secondary-color); /* Add border */
+}
+
+.languages-box h2,
+.technologies-box h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.languages-box ul,
+.technologies-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.languages-box li,
+.technologies-box li {
+  font-size: 18px;
+  margin-bottom: 8px;
+  display: inline-flex; /* Display the list items horizontally */
+  align-items: center;
+}
+
+.languages-box i,
+.technologies-box i {
+  font-size: 32px; /* Adjust the icon size as needed */
+  color: var(--secondary-color);
+  transition: color 0.3s ease;
+  margin-right: 8px; /* Adjust the margin as needed */
+}
+
+.languages-box li::before,
+.technologies-box li::before {
+  content: '\25B6'; /* Unicode character for right-pointing triangle */
+  font-size: 18px; /* Adjust the size of the triangle */
+  margin-right: 8px; /* Adjust the spacing between triangle and text */
+}
+
+/* Change color on hover */
+.languages-box i:hover,
+.technologies-box i:hover {
+  color: #ff4321;
+}
+
+/* Existing CSS styles... */
