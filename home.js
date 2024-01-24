@@ -9,18 +9,18 @@ if(localStorage.getItem("theme") == null){
 let localData = localStorage.getItem("theme");
 
 if(localData == "light"){
-  icon.src = "Photos/moon.png";
+  icon.src = "moon.png";
   document.body.classList.remove("dark-theme");
 }
 else if(localData == "dark"){
-  icon.src = "Photos/sun.png";
+  icon.src = "sun.png";
   document.body.classList.add("dark-theme");
 }
 
 icon.onclick = function(){
   document.body.classList.toggle("dark-theme");
   if(document.body.classList.contains("dark-theme")){
-    icon.src = "Photos/sun.png";
+    icon.src = "sun.png";
     localStorage.setItem("theme", "dark");
   }else{
     icon.src = "Photos/moon.png";
@@ -34,7 +34,7 @@ function openResume() {
 
   // Create an iframe to display the PDF
   var pdfIframe = document.createElement("iframe");
-  pdfIframe.src = "C:/Users/Admin/Downloads/Dark Mode Website/Resume.pdf"; // Replace with the actual path to your PDF file
+  pdfIframe.src = "Resume.pdf"; 
   pdfIframe.width = "100%";
   pdfIframe.height = "100%";
 
